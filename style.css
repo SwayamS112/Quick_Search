@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    transition: background-image 0.3s;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('/Search/img/space-astronaut.jpg');
+    background-attachment: fixed;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #4285f4;
+    color: white;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #357ae8;
+}
+
+.search-area {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4285f4;
+}
